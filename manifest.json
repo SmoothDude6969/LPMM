@@ -1,0 +1,22 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+  "manifest_version": 3,
+  "name": "Texture pack for videozz",
+  "version": "1.0",
+  "description": "YT is good chat",
+  "author": "SmoothDude",
+  "background": {"service_worker": "background.js"},
+  "icons": {
+    "128": "logo.png"
+  },
+  "permissions": [
+   "declarativeNetRequestWithHostAccess"
+  ],
+  "host_permissions": [
+    "https://miniblox.io/*",
+    "https://miniblox.online/*",
+    "https://miniblox.org/*",
+    "https://raw.githubusercontent.com/*"
+  ]
+}
